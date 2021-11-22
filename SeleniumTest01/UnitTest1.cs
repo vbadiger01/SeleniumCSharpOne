@@ -14,6 +14,7 @@ namespace SeleniumTest01
             Console.WriteLine("This is set Up");            
             driver = new ChromeDriver(@"D:\Selenium Related\chromedriver_win32\");
             driver.Manage().Window.Maximize();    
+
         }
 
         [Test]
